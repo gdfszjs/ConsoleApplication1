@@ -13,18 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\ElementCreater">
+      <UniqueIdentifier>{38c8a138-e56b-4716-b620-e545c947c773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ElementComparator">
+      <UniqueIdentifier>{c47fac5d-f027-4058-a95c-576ec7ec92fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="EdgeSet.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\ElementCreater</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphandNode.cpp">
+      <Filter>源文件\ElementCreater</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件\ElementCreater</Filter>
+    </ClCompile>
+    <ClCompile Include="MRG.cpp">
+      <Filter>源文件\ElementCreater</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementComparator.cpp">
+      <Filter>源文件\ElementComparator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EdgeSet.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\ElementCreater</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphandNode.h">
+      <Filter>源文件\ElementCreater</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>源文件\ElementCreater</Filter>
+    </ClInclude>
+    <ClInclude Include="MRG.h">
+      <Filter>源文件\ElementCreater</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementComparator.h">
+      <Filter>源文件\ElementComparator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

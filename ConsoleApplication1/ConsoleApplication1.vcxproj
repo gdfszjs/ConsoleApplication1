@@ -150,10 +150,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EdgeSet.cpp" />
+    <ClCompile Include="ElementComparator.cpp" />
+    <ClCompile Include="GraphandNode.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MRG.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EdgeSet.h" />
+    <ClInclude Include="ElementComparator.h" />
+    <ClInclude Include="GraphandNode.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MRG.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
